@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Termux Developer</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/index.css" type="text/css" media="all" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="header">
+                    <div class="terminal-icon">&gt;_</div>
+                    <div class="header-text">
+                        <h1>Wellcome To My app</h1>
+                        <span>mobile coding life</span>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="line">
+                        <span class="emoji">😎</span>
+                        <span class="text"
+                            >Yes, ini app
+                            <span class="highlight">Android</span></span
+                        >
+                    </div>
+                    <div class="line">
+                        <span class="emoji">📱</span>
+                        <span class="text"
+                            >Dibuat pakai
+                            <span class="highlight">HP doang</span></span
+                        >
+                    </div>
+                    <div class="line">
+                        <span class="emoji">☕</span>
+                        <span class="text"
+                            >Ngoding di <span class="highlight">Termux</span>,
+                            bukan di cafe</span
+                        >
+                    </div>
+                    <div class="line">
+                        <span class="emoji">🔥</span>
+                        <span class="text"
+                            >Build di <span class="highlight">cloud</span>,
+                            bukan di warung</span
+                        >
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <div class="tagline">No laptop. No drama.</div>
+                    <div class="works">
+                        Still works
+                        <span class="rocket">🚀</span><span class="cursor"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            if (
+                window.matchMedia &&
+                window.matchMedia("(prefers-color-scheme: light)").matches
+            ) {
+                document.documentElement.classList.add("light");
+            }
+            window
+                .matchMedia("(prefers-color-scheme: light)")
+                .addEventListener("change", event => {
+                    if (event.matches) {
+                        document.documentElement.classList.add("light");
+                    } else {
+                        document.documentElement.classList.remove("light");
+                    }
+                });
+        </script>
+    </body>
+</html>
