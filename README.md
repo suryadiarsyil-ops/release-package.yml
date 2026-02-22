@@ -7,7 +7,7 @@ Aplikasi Android berbasis HTML yang dibangun menggunakan **Apache Cordova** dan 
 ## 📁 Struktur Proyek
 
 ```
-suryadiarsyil-ops/
+exampleapp/
 ├── .github/
 │   └── workflows/
 │       └── build.yml       # GitHub Actions CI/CD workflow
